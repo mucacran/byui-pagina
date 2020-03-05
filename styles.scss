@@ -1,3 +1,4 @@
+@import 'reset';
 @import 'typography';
 @import 'icons';
 
@@ -29,5 +30,33 @@ img {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
+}
+
+
+.site-banner
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: red;
+
+  height: 60px;
+}
+
+.site-banner__left
+{
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  height: 60px;
+}
+.site-banner__right
+{
+  display: flex;
+  justify-content:flex-end;
+
+  width: 100%;
+
+  background-color: green;
 }
