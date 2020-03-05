@@ -38,16 +38,24 @@ img {
   display: flex;
   justify-content:center;
   align-items:center;
-  background-color: red;
+  background-color: $byui-blue;
 
   height: 60px;
 }
 
+.icon-byui-logo
+{
+  color: white;
+}
 .site-banner__left
 {
+  display: flex;
+  justify-content:center;
+align-items:center;
+
   box-sizing: border-box;
   background-color: black;
-  color: white;
+  
   padding: 15px;
   height: 60px;
 }
@@ -57,6 +65,4 @@ img {
   justify-content:flex-end;
 
   width: 100%;
-
-  background-color: green;
 }

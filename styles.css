@@ -1092,22 +1092,28 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: #056cb6;
   height: 60px;
 }
 
+.icon-byui-logo {
+  color: white;
+}
+
 .site-banner__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   background-color: black;
-  color: white;
   padding: 15px;
+  height: 60px;
 }
 
 .site-banner__right {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background-color: green;
 }
 
 /*# sourceMappingURL=styles.css.map */
