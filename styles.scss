@@ -43,20 +43,21 @@ img {
   height: 60px;
 }
 
-.icon-byui-logo
+.icon-byui-logo::before
 {
   color: white;
+  font-size: 30px;
 }
 .site-banner__left
 {
   display: flex;
   justify-content:center;
-align-items:center;
+  align-items:center;
 
   box-sizing: border-box;
   background-color: black;
   
-  padding: 15px;
+  padding: 10px;
   height: 60px;
 }
 .site-banner__right
@@ -65,4 +66,15 @@ align-items:center;
   justify-content:flex-end;
 
   width: 100%;
+}
+
+.icon-search:before
+.icon-audience,
+.icon-menu:before,
+.icon-user,
+.icon-magnifying-glass:before
+{
+ font-size: 15px;
+ color: white;
+ padding-right:15px;
 }
